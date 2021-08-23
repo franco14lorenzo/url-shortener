@@ -2,13 +2,12 @@
 
 <html>
   <head>
-    <title>URL Shortener Microservice | freeCodeCamp.org</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png"
-    />
+    <title>URL Shortener Microservice</title>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link href="/public/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -19,14 +18,16 @@
           <fieldset>
             <legend>URL Shortener</legend>
             <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
-            <input type="submit" value="POST URL" />
+            <input id="url_input" type="text" name="url" placeholder="https://github.com/franco14lorenzo" />
+            <input type="submit" value="POST" id="button" />
           </fieldset>
         </form>
       </section>
     </main>
-    <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
-    </footer>
+    <div class="footer">
+      <p>
+        By <a href="https://github.com/franco14lorenzo" target="_blank">Franco Lorenzo</a>
+      </p>
+    </div>
   </body>
 </html>

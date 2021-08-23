@@ -1,13 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #222;
   background-color: #fff;
   text-align: center;
   line-height: 1.4em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-evenly;
 }
 
 main {
+  width: 80vw;
   padding: 0;
   margin-top: 40px;
 }
@@ -15,8 +21,6 @@ main {
 h3 {
   margin-top: 30px;
 }
-
-
 
 .user-stories li {
   margin-bottom: 1em;
@@ -27,9 +31,8 @@ a {
 }
 
 form {
-  margin: 10px auto;
+  margin: 10px;
   padding: 20px;
-  max-width: 600px;
 }
 
 label {
@@ -40,7 +43,41 @@ input {
   padding: 5px;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 220px;
   text-align: center;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#url_input {
+  width: 70%;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+#button:hover {
+  background-color: green;
+
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  opacity: 0.8;
 }
