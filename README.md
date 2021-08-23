@@ -6,4 +6,6 @@ https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices
 
 DEMO: https://peaceful-crag-57523.herokuapp.com/
 
+Al ingresar una url valida la api respondera con un json donde una de sus claves es "short_url", agregue ese valor con un slash a https://peaceful-crag-57523.herokuapp.com/api/shorturl
+
 ![URL-shortener Microservice](https://i.ibb.co/6DLWG6M/url-microservice.png)
