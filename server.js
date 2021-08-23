@@ -38,7 +38,7 @@ app.post('/api/shorturl', function(req, res) {
     } else {
       const url = new Url({url: bodyUrl})
       url.save((err, data) => {
-        res.json({original__url: data.url, short_url: data.id})
+        res.json({original_url: data.url, short_url: data.id})
       })
     }
     console.log("dns", err);
